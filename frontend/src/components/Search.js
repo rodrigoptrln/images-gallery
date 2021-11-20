@@ -1,7 +1,7 @@
-import React from "react";
-import { Container, Row, Col, Form, Button } from "react-bootstrap";
+import React from 'react';
+import { Container, Row, Col, Form, Button } from 'react-bootstrap';
 
-function Search( { word, setWord, handleSubmit } ) {
+function Search({ word, setWord, handleSubmit }) {
   return (
     <Container className="mt-4">
       <Row className="justify-content-center">
@@ -13,12 +13,12 @@ function Search( { word, setWord, handleSubmit } ) {
                   type="text"
                   value={word}
                   onChange={(e) => setWord(e.target.value)}
-                  placeholder="Search for new images..."
+                  placeholder="Pesquisar por novas imagens..."
                 />
               </Col>
               <Col>
                 <Button variant="primary" type="submit">
-                  Search
+                  Pesquisar
                 </Button>
               </Col>
             </Row>
@@ -27,6 +27,6 @@ function Search( { word, setWord, handleSubmit } ) {
       </Row>
     </Container>
   );
-};
+}
 
-export default Search
+export default Search;

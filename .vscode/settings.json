@@ -1,3 +1,14 @@
 {
-  "gitlens.currentLine.enabled": false
+  "gitlens.currentLine.enabled": false,
+  "eslint.validate": [
+    "html",
+    "javascript",
+    "javascriptreact"
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "cSpell.words": [
+    "browserslist"
+  ]
 }
