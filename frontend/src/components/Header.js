@@ -3,7 +3,7 @@ import { Navbar, Container } from 'react-bootstrap';
 import { ReactComponent as Logo } from '../images/logo.svg';
 
 const navbarStyle = {
-  backgroundColor: '#eef',
+  backgroundColor: '#f8f9fa',
 };
 
 function Header({ title }) {

@@ -1,26 +1,21 @@
 import React from 'react';
+import { Button } from 'react-bootstrap';
 
 const Welcome = () => (
-  <div class="bg-light p-5 rounded-lg m-3">
+  <div class="p-3 jumbotron">
     <h1 class="display-4">Images Gallery</h1>
     <p class="lead">
-      This is a simple hero unit, a simple jumbotron-style component for calling
-      extra attention to featured content or information.
+      This is a simple application that retrieve photos from Unsplash API. In
+      order to start enter any search term in the input field.
     </p>
     <hr class="my-4" />
     <p>
       Unsplash é um site que prove imagens para uso gratuito e sem restrições
       comerciais e direitos de imagem, livre para o uso geral.
     </p>
-    <a
-      class="btn btn-primary"
-      href="http://unsplash.com"
-      target="_blank"
-      role="button"
-      rel="noreferrer"
-    >
+    <Button variant="primary" href="https://unsplash.com" target="_blank">
       Saiba mais
-    </a>
+    </Button>
   </div>
 );
 
