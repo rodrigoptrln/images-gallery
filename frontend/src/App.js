@@ -8,14 +8,13 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 const API_URL = process.env.REACT_APP_API_URL || 'http://127.0.0.1:5050';
 
-function App() {
+const App = () => {
   const [word, setWord] = useState('');
   const [images, setImages] = useState([]);
 
   const handleSearchSubmit = (e) => {
     e.preventDefault();
-
-    fetch(`${API_URL}/new_image?query=${word}`)
+    fetch(`${API_URL}/new-image?query=${word}`)
       .then((res) => res.json())
       .then((data) => {
         setImages([{ ...data, title: word }, ...images]);
@@ -31,7 +30,7 @@ function App() {
   };
 
   return (
-    <div className="App">
+    <div>
       <Header title="Images Gallery" />
       <Search word={word} setWord={setWord} handleSubmit={handleSearchSubmit} />
       <Container className="mt-4">
@@ -49,6 +48,6 @@ function App() {
       </Container>
     </div>
   );
-}
+};
 
 export default App;
