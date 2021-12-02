@@ -8,6 +8,7 @@ flask = "==2.0.2"
 requests = "==2.26.0"
 python-dotenv = "==0.19.2"
 flask-cors = "==3.0.10"
+pymongo = "==4.0"
 
 [dev-packages]
 black = "==21.11b1"
