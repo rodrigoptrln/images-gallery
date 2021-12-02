@@ -19,7 +19,7 @@ mongo_client = MongoClient(
 
 def insert_test_document():
     """Inserts sample document to the test_collection in the test db"""
-    db = mongo_client.test
-    test_collection = db.test_collection
-    res = test_collection.insert_one({"name": "Rodrigo", "instructor": True})
+    db = mongo_client.gallery
+    test_collection = db.images_collection
+    res = images_collection.insert_one({"name": "Rodrigo", "instructor": True})
     print(res)
