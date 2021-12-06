@@ -17,6 +17,7 @@
   "cSpell.words": [
     "browserslist",
     "dotenv",
+    "jsonify",
     "noreferrer"
   ],
   "python.pythonPath": "api/.venv/Scripts",
