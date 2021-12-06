@@ -6,6 +6,7 @@ import Search from './components/Search';
 import ImageCard from './components/ImageCard';
 import Welcome from './components/Welcome';
 import Spinner from './components/Spinner';
+// import Footer from './components/Footer';
 import { Container, Row, Col } from 'react-bootstrap';
 
 const API_URL = process.env.REACT_APP_API_URL || 'http://127.0.0.1:5050';
