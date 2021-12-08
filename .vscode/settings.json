@@ -6,7 +6,7 @@
     "javascript",
     "javascriptreact"
   ],
-  "js/ts.implicitProjectConfig.checkJs": true,
+  // "js/ts.implicitProjectConfig.checkJs": true,
   "eslint.workingDirectories": [
     {
       "mode": "auto"
@@ -14,13 +14,14 @@
   ],
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true,
-    "source.organizeImports": true
+    // "source.organizeImports": true
   },
   "cSpell.words": [
     "browserslist",
     "dotenv",
     "jsonify",
-    "noreferrer"
+    "noreferrer",
+    "Toastify"
   ],
   "python.pythonPath": "api/.venv/Scripts",
   "python.linting.pycodestyleEnabled": true,
