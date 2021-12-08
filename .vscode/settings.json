@@ -6,13 +6,15 @@
     "javascript",
     "javascriptreact"
   ],
+  "js/ts.implicitProjectConfig.checkJs": true,
   "eslint.workingDirectories": [
     {
       "mode": "auto"
     }
   ],
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
+    "source.fixAll.eslint": true,
+    "source.organizeImports": true
   },
   "cSpell.words": [
     "browserslist",
